@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="348.0" style="-fx-background-color: #3D3D3D;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="88.0" layoutY="141.0" prefHeight="25.0" prefWidth="195.0" promptText="User Name" />
+      <TextField layoutX="88.0" layoutY="222.0" prefHeight="25.0" prefWidth="195.0" promptText="Password" />
+      <Text fill="WHITE" layoutX="109.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMIN LOGIN" wrappingWidth="153.13671875">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="214.0" layoutY="293.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="69.0" style="-fx-background-color: #4CAF50;" text="Login" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="88.0" layoutY="293.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="69.0" style="-fx-background-color: f44336;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <FontAwesomeIconView fill="WHITE" glyphName="USER" layoutX="167.0" layoutY="106.0" size="40" wrappingWidth="30.428571701049805" />
+      <Hyperlink layoutX="109.0" layoutY="355.0" prefHeight="26.0" prefWidth="153.0" text="Forgot Your Password ?" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Hyperlink>
+      <FontAwesomeIconView fill="#902ac3" glyphName="USERS" layoutX="51.0" layoutY="159.0" size="20" />
+      <FontAwesomeIconView fill="#902ac3" glyphName="KEY" layoutX="51.0" layoutY="241.0" size="20" />
+   </children>
+</AnchorPane>

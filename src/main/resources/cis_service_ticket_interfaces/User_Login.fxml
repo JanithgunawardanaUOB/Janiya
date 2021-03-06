@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="469.0" prefWidth="350.0" style="-fx-background-color: #6A5F5C;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="509.0" fitWidth="381.0" layoutX="-6.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Web%201920%20–%201.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="35.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Having a Trouble  :(" wrappingWidth="177.9830722808838">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="6.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Just Send Us a Message Via Service Ticket">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="14.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We Will Be  There On Your Marks :)">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="500.0" prefWidth="353.0" style="-fx-background-color: #3D3D3D;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="fxusername" layoutX="84.0" layoutY="186.0" prefHeight="26.0" prefWidth="215.0" promptText="User Name" style="-fx-background-color: transparent; -fx-border-color: #0599; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="fxpassword" layoutX="83.0" layoutY="283.0" prefHeight="26.0" prefWidth="217.0" promptText="Password" style="-fx-background-color: transparant; -fx-border-color: #0599; -fx-border-width: 0px 0px 2px 0px;" />
+           
+            <Button layoutX="156.0" layoutY="359.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="69.0" text="Login">
+               <effect>
+                  <Bloom />
+               </effect>
+            </Button>
+            <Hyperlink layoutX="109.0" layoutY="433.0" prefHeight="26.0" prefWidth="153.0" text="Forgot Your Password ?">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="14.0" layoutY="436.0" text="New User ?">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="277.0" layoutY="434.0" text="Admin ?">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Hyperlink>
+            <FontAwesomeIconView fill="WHITE" glyphName="USERS" layoutX="44.0" layoutY="205.0" size="20" />
+            <FontAwesomeIconView fill="WHITE" glyphName="KEY" layoutX="43.0" layoutY="301.0" size="20" />
+            <Text fill="WHITE" layoutX="121.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login" wrappingWidth="111.98307228088379">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+           
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

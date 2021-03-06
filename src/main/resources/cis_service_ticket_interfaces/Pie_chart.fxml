@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="900.0" style="-fx-background-color: #3D3D3D;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <PieChart fx:id="PC_NO" layoutX="4.0" layoutY="2.0" prefHeight="507.0" prefWidth="299.0" style="-fx-background-color: #3D3D3D;" title="PC NO" />
+      <PieChart id="Time" layoutX="601.0" layoutY="5.0" prefHeight="501.0" prefWidth="299.0" style="-fx-background-color: #3D3D3D;" title="Time" />
+      <PieChart id="Department" layoutX="313.0" layoutY="4.0" prefHeight="507.0" prefWidth="299.0" style="-fx-background-color: #3D3D3D;" title="Department" />
+   </children>
+</AnchorPane>
